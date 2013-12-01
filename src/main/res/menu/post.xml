@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:id="@+id/group_loading">
+    <item
+        android:id="@+id/refresh_menu_item"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_sync_50"/>
+  </group>
+  <group android:id="@+id/group_post">
+    <item
+        android:id="@+id/view_website_menu_item"
+        android:title="@string/view_website"
+        android:icon="@drawable/ic_world_50"/>
+  </group>
+</menu>
